@@ -181,3 +181,8 @@ padding-top: 60px;
 #error{
   text-align: center;
 }
+
+#loader{
+  text-align: center;
+  margin-top: 10%;
+}
