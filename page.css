@@ -1,0 +1,183 @@
+#navbarSupportedContent{
+    margin-left: 900px;
+    background-color: rgb(242, 245, 247);
+  }  
+#image{
+  float: right;
+}  
+#section2{
+  background-color: rgb(242, 245, 247);
+  border-spacing: 10%;
+
+}
+#section3{
+  float: left;
+}
+#section-3{
+  float: right;
+}
+#heading{
+  text-align: center;
+}
+#flex-container{
+  display: flexbox;
+}
+#flex-container > div{
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+#section4{
+  margin-left: 750px;
+}
+#bea{
+  height:2px;
+background-color:#bd1c1c;
+padding:0px;
+text-decoration: underline; 
+text-decoration-color: red;
+margin-left: auto;
+margin-right: auto;
+width: 5%;
+}
+#grid{
+font-size: 30px;
+display: grid;
+grid-template-columns: auto auto auto;
+padding: 20%;
+}
+.imggallery{
+object-fit: cover;
+width: 80%;
+max-height: 80%;
+display: grid;
+}
+#heading2{
+text-align: center;
+}
+#always{
+height:2px;
+background-color:#cc1a1a;
+padding:0px;
+text-decoration: underline; 
+text-decoration-color: red;
+margin-left: auto;
+margin-right: auto;
+width: 5%;
+}
+#grid1{
+display: grid;
+grid-template-columns: auto auto auto auto; 
+padding-left: 100px; 
+display: grid;
+padding: top 10px;
+padding: 20%;
+
+}
+.person{
+object-fit: cover;
+width: 80%;
+max-height: 80%;
+display: grid;
+}
+#heading3{
+text-align: center;
+background-color: rgb(242, 245, 247);
+}
+#trust{
+height:2px;
+background-color:#cc1a1a;
+padding:0px;
+text-decoration: underline; 
+text-decoration-color: red;
+margin-left: auto;
+margin-right: auto;
+width: 5%;
+}
+#text{
+/* text-align: center; */
+padding-top: 60px;
+}
+
+/*corosal*/
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+/* @media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+} */
+
+#map{
+    width: 600px;
+    height: 700px;
+}
+
+#errorfirstname, #errorlastname, #erroremail, #errormessage, #errorphone{
+    color:red;
+}
+
+.contain{
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 84%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  /* margin-left: 400px; */
+  cursor: pointer;
+}
+
+.contain:hover .overlay {
+  opacity: 1;
+}
+
+#go{
+  border-radius: 20px;
+  background-color: #040303;
+  color: #f1f1f1;
+}
+
+#back{
+  border-radius: 30px;
+  margin-left: 500px;
+  background-color: rgb(171, 173, 176);
+}
+
+#screen{
+  margin-top: 350px;
+  margin-left: 650px;
+}
+
+#suc{
+  background-color: blueviolet;
+  color: #040303;
+  border-radius: 20px;
+}
+
+#error{
+  text-align: center;
+}

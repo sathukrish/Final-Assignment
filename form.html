@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="page.css">
+</head>
+<body style="background-color: aliceblue;">
+<div>
+    <div id="map" style="float: left; margin-left: 300px; margin-top: 250px;"></div>
+     <div class="card text-left" style="padding-top: 10%; margin-top: -140px; border: none; margin-left: 250px;">
+      <div style="background-color: aliceblue;" class="card-header">
+        <b> 109/1, Poonthoddam, Vavuniya</b>
+      </div>
+      <div style="background-color: aliceblue;" class="card-body">
+        <p class="card-text">
+         <b>Phone:</b>  0123456789<br><br>
+         <b>Email:</b>  XYZ018@gmail.com<br><br>
+         <b>Fax:</b>  1234567890<br><br>
+        </p>
+        <p style="color: blueviolet; font-size: 20px;">Want to Know More?? Drop Us a Mail</p>
+      </div>
+    </div><br>
+ <div>  
+    <form onsubmit="return myfunction()" action="success.html" target="_self">
+        <input type="text" id="firstname" placeholder="First name"><br><br>
+        <p id="errorfirstname"></p>
+        <input type="text" id="lastname" placeholder="Last name"><br><br>
+        <p id="errorlastname"></p>
+        <input type="text" id="email" placeholder="Email"><br><br>
+        <p id="erroremail"></p>
+        <input type="number" id="phone" placeholder="Contact number"><br><br>
+        <p id="errorphone"></p>
+        <input type="message" id="message" placeholder="Type message here.........."><br><br>
+        <p id="errormessage"></p>
+        <input type="submit" id="button" value="Submit"><br><br>
+    </form>
+</div>
+</div>
+<div>
+    <a href="page01.html"><button id="back">Go Home</button></a>
+</div>
+
+
+    <script src="page.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbBTsw3a0xr_gDG89PMwd99dpxoE-y45A&callback=initMap"></script>
+</body>
+</html>
